@@ -1,0 +1,117 @@
+
+.triangleup h3:nth-of-type(1) {
+    color: #2C6CCF;
+}
+
+.triangleup h3:nth-of-type(1)::before {
+    content: "";
+    background: linear-gradient(to right ,
+                    #2C6CCF 0%,
+                    #2C6CCF 50%,
+                    #aeaeae 50%, 
+                    #aeaeae 100%);
+    height: 5px;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+}
+
+.triangleup h3:nth-of-type(1)::after {
+    content: "";
+    height: 0px;
+    width: 0px;
+    border: 15px solid;
+    border-color: transparent transparent #2C6CCF transparent;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+}
+
+h3:nth-of-type(2) {
+    color: #309E0E;
+}
+
+.triangleup h3:nth-of-type(2)::before {
+    content: "";
+    background: linear-gradient(to right ,
+                    #309E0E 0%,
+                    #309E0E 50%,
+                    #aeaeae 50%, 
+                    #aeaeae 100%);
+    height: 5px;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+}
+
+.triangleup h3:nth-of-type(2)::after {
+    content: "";
+    height: 0px;
+    width: 0px;
+    border: 15px solid;
+    border-color: transparent transparent #309E0E transparent;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+}
+
+h3:nth-of-type(3) {
+    color: #CF2C2C;
+}
+
+.triangleup h3:nth-of-type(3)::before {
+    content: "";
+    background: linear-gradient(to right ,
+                    #CF2C2C 0%,
+                    #CF2C2C 50%,
+                    #aeaeae 50%, 
+                    #aeaeae 100%);
+    height: 5px;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+}
+
+.triangleup h3:nth-of-type(3)::after {
+    content: "";
+    height: 0px;
+    width: 0px;
+    border: 15px solid;
+    border-color: transparent transparent #CF2C2C transparent;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+}
+
+h3:nth-of-type(4) {
+    color: #CD661A;
+    margin-bottom: 80px;
+}
+
+.triangleup h3:nth-of-type(4)::before {
+    content: "";
+    background: linear-gradient(to right ,
+                    #CD661A 0%,
+                    #CD661A 50%,
+                    #aeaeae 50%, 
+                    #aeaeae 100%);
+    height: 5px;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+}
+
+.triangleup h3:nth-of-type(4)::after {
+    content: "";
+    height: 0px;
+    width: 0px;
+    border: 15px solid;
+    border-color: transparent transparent #CD661A transparent;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+}
